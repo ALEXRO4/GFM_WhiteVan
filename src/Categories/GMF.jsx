@@ -14,7 +14,7 @@ const GMF = () => {
         </div>
         <div className="flex-1 flex justify-center items-center">
           <img
-            src="./Images/crafter4.jpeg"
+            src="./Images/crafter1.jpg"
             alt="Nosotros"
             className="w-3/4 rounded-lg shadow-lg mx-auto"
           />
@@ -26,9 +26,9 @@ const GMF = () => {
         
         <div className="flex-1 flex justify-center items-center">
           <img
-            src="./Images/crafter4.jpeg"
+            src="./Images/crafter2.jpg"
             alt="Misión"
-            className="w-3/4 rounded-lg shadow-lg mx-auto"
+            className="w-3/4 rounded-lg shadow-lg mx-auto pt-4"
           />
         </div>
         <div className="flex-1 text-justify">

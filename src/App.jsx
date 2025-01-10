@@ -16,7 +16,7 @@ const App = () => {
       </div>
       
       {/* Sección Servicios */}
-      <div id="Services" className="min-h-screen py-16 bg-gray-300">
+      <div id="Services" className="min-h-screen py-16 bg-gray-200">
         <h1 className="text-center text-4xl text-yellow-500 font-serif font-bold ">Servicios</h1>
         <Services />
       </div>
