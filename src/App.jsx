@@ -7,7 +7,7 @@ import Contact from './Categories/Contact';
 
 const App = () => {
   return (
-    <div className="App bg-gray-400 scroll-smooth">
+    <div className="App bg-gray-300 scroll-smooth">
       <NavBar />
       
       {/* Sección Nosotros */}
@@ -17,12 +17,12 @@ const App = () => {
       
       {/* Sección Servicios */}
       <div id="Services" className="min-h-screen py-16 bg-gray-300">
-        <h1 className="text-center text-4xl text-yellow-600 font-serif font-bold border-b-2 mx-20 mb-8 pb-2 border-amber-500">Servicios</h1>
+        <h1 className="text-center text-4xl text-yellow-500 font-serif font-bold ">Servicios</h1>
         <Services />
       </div>
       
       {/* Sección Contacto */}
-      <div id="Contact" className="min-h-screen py-16 bg-gray-200">
+      <div id="Contact" className="min-h-screen py-16 bg-gray-300">
         <h1 className="text-center text-4xl text-gray-800 font-serif font-bold mb-8">Contacto</h1>
         <Contact />
       </div>
