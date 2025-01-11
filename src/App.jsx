@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
-import GMF from './Categories/GMF';
+import GFM from './Categories/GFM';
 import Services from './Categories/Services';
 import Contact from './Categories/Contact';
 
@@ -11,13 +11,14 @@ const App = () => {
       <NavBar />
       
       {/* Sección Nosotros */}
-      <div id="GMF" className="min-h-screen py-8">
-                <GMF />
+      <div id="GFM" className="min-h-screen py-8  ">
+      <h1 className="text-center text-4xl text-yellow-400 font-serif font-bold border-b-2 mx-20 mt-8 pb-2 border-amber-400">Nosotros</h1>
+                <GFM />
       </div>
       
       {/* Sección Servicios */}
       <div id="Services" className="min-h-screen py-16 bg-gray-200">
-        <h1 className="text-center text-4xl text-yellow-500 font-serif font-bold ">Servicios</h1>
+        <h1 className="text-center text-4xl text-yellow-400 font-serif font-bold ">Servicios</h1>
         <Services />
       </div>
       

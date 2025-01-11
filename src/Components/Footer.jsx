@@ -19,7 +19,7 @@ const Footer = () => {
           <h2 className="text-lg font-bold mb-2 text-white">Contactos</h2>
           <ul className="text-gray-300">
             <li > Correo: </li>
-            <li>gmfwhitevan@hotmail.com</li>
+            <li>gfmwhitevan@hotmail.com</li>
             <li>Telefono:</li>
             <li>+55 00000000</li>
           </ul>
@@ -27,7 +27,7 @@ const Footer = () => {
 
         {/* Sección "GMF" */}
         <div className="flex-1 pt-4  font-serif">
-        <div className="font-bold text-5xl text-amber-400 text-center mt-5">GMF</div>
+        <div className="font-bold text-5xl text-amber-400 text-center mt-5">GFM</div>
         <div className="text-xl text-amber-400 text-center">White Van</div>
         </div>
       </div>

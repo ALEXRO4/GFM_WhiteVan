@@ -39,7 +39,7 @@ const Services = () => {
         <div className='flex-1 text-center font-serif'>
           <h1 className='text-2xl font-semibold flex-col pb-2'>Nuestra experiencia</h1>
           <p className='lg:mr-10 sm:mx-4 md:mx-2 text-xl'>
-          <strong className='text-amber-500'>GMF </strong> ha sido el aliado de confianza en eventos emblemáticos como 
+          <strong className='text-amber-500'>GFM </strong> ha sido el aliado de confianza en eventos emblemáticos como 
           <strong className='text-amber-500'> Vive Latino, Corona Capital, Flow Fest, Bahidorá, Belife y Teketóny</strong> siendo puntuales para cada ocasión
           </p>
         </div>
