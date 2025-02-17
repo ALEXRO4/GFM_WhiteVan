@@ -3,11 +3,11 @@ import './gfm.css';
 
 const GMF = () => {
   return (
-    <div className="p-4 md:p-8">
+    <div className="p-4 mb-8 md:p-8 ">
       {/* Sección Nosotros */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-y-8 md:gap-y-4 gap-x-6 mt-8">
         <div className="flex-1 text-justify">
-          <h1 className="text-center text-3xl font-bold font-serif border-b-2 border-amber-400 mb-4 text-yellow-400">Nosotros</h1>
+          <h2 className="text-center text-3xl font-bold font-serif border-b-2 border-amber-400 mb-4 text-yellow-400">Nosotros</h2>
           <p className="text-xl font-serif">
             Somos una empresa conformada por un equipo de profesionales altamente capacitados y especializados en el sector del transporte. Nuestro objetivo es ofrecer soluciones eficientes y de calidad, respaldadas por años de experiencia y compromiso en satisfacer las necesidades de nuestros clientes.
           </p>
@@ -16,7 +16,7 @@ const GMF = () => {
           <img
             src="./Images/crafter1.jpg"
             alt="Nosotros"
-            className="w-3/4 rounded-lg shadow-lg mx-auto"
+            className="w-3/4  rounded-lg shadow-lg mx-auto"
           />
         </div>
       </div>
@@ -26,9 +26,9 @@ const GMF = () => {
         
         <div className="flex-1 flex justify-center items-center">
           <img
-            src="./Images/crafter2.jpg"
+            src="./Images/crafter3.jpg"
             alt="Misión"
-            className="w-3/4 rounded-lg shadow-lg mx-auto pt-4"
+            className="w-2/3 rounded-lg shadow-lg mx-auto pt-4"
           />
         </div>
         <div className="flex-1 text-justify">
@@ -37,6 +37,10 @@ const GMF = () => {
             Nuestra misión es ofrecer seguridad, tranquilidad, puntualidad y comodidad a quienes nos eligen. Utilizamos vehículos de alta gama, equipados con la tecnología más avanzada, y contamos con un personal íntegro, responsable y comprometido en brindar un servicio competitivo, inclusivo y amigable con el medio ambiente.
           </p>
         </div>
+      </div>
+
+      <div>
+        Ayudamos al medio ambiente
       </div>
     </div>
   );

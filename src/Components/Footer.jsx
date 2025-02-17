@@ -35,7 +35,7 @@ const Footer = () => {
       {/* Texto inferior */}
       <div>
         <p className="text-gray-300 border-t p-4 mt-4 text-center">
-        Para más información comunicate con nosotros
+        Para más información o cotizaciones comunicate con nosotros
         </p>
       </div>
     </footer>
