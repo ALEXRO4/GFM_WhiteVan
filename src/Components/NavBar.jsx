@@ -28,10 +28,11 @@ const NavBar = () => {
     <nav>
       <div className='h-10vh flex justify-between z-50 text-white lg:py-5 px-20 flex-1 bg-black'>
         <div className='flex items-center flex-1'>
-          <span><img src="./Images/logo.png" alt="logo" className='h-20 mx-auto' /></span>
+          <span><img src="/Images/logo.png" alt="logo" className='h-20 mx-auto' />
+          </span>
         </div>
         
-        <div className="flex flex-col items-center mt-3 font-serif lg:block hidden">
+        <div className="flex flex-col items-center mt-3 font-serif lg:block-hidden">
           <div className="font-bold text-5xl text-amber-400 text-center">GFM</div>
           <div className="text-xl text-amber-400 text-center">White Van</div>
         </div>

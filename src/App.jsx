@@ -5,6 +5,7 @@ import Footer from './Components/Footer';
 import GFM from './Categories/GFM';
 import Services from './Categories/Services';
 import Contact from './Categories/Contact';
+import Diapositiva1 from './Categories/Diapositivas/Diapositiva1';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<Services />} />
           <Route path="/gfm" element={<GFM />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/Diapositivas/Diapositiva1" element={<Diapositiva1 />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

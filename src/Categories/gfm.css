@@ -1,2 +1,96 @@
+/* Estilos generales */
+.cajaP {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Asegura que los elementos se ajusten en pantallas pequeñas */
+     /* Espaciado entre las cajas */
+  }
+  
+  .cajaI,.cajaD {
+    
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+  }
+  
+  .cajaI {
+    width: 48%; /* Ajustar el ancho */
+    box-shadow: 5px 5px 10px rgba(95, 94, 94, 0.651); /* Sombra suave */
+    border: 2px solid rgba(68, 67, 67, 0.014); /* Borde delgado */
+    border-radius: 5px; /* Esquinas ligeramente redondeadas */
+}
 
+  .imgNos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .cajaD, .cajaI {
+    width: 48%;
+  }
+  
+.cajaIn{
+  box-shadow: 5px 5px 10px rgba(95, 94, 94, 0.651); /* Sombra suave */
+    border: 2px solid rgba(68, 67, 67, 0.014); /* Borde delgado */
+    border-radius: 5px; /* Esquinas ligeramente redondeadas */
+    padding-inline: 2px;
+}
+  .cajaSu {
+    
+    margin-bottom: 10px;
+    padding-inline: 2px;
+    box-shadow: 5px 5px 10px rgba(95, 94, 94, 0.651); /* Sombra suave */
+    border: 2px solid rgba(68, 67, 67, 0.014); /* Borde delgado */
+    border-radius: 5px; /* Esquinas ligeramente redondeadas */
+  }
+  
+  .imaGfm {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  /* Ajuste de tamaño de las imágenes */
+  .cajaI img, .cajaIn img {
+    width: 100%; /* La imagen ocupa el 100% del ancho de su contenedor */
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Media queries para pantallas pequeñas */
+  @media screen and (max-width: 767px) {
+    .cajaI, .cajaD, .cajaSu, .cajaIn {
+      width: 100%; /* Las cajas ocuparán el 100% del ancho en pantallas pequeñas */
+      margin: 10px 0; /* Reduce el margen en pantallas pequeñas */
+    }
 
+    .imgNos{
+      margin-top: 0px;
+    }
+  
+    .cajaP {
+      flex-direction: column; /* Cambia la dirección a columna */
+      align-items: center; /* Centra las cajas */
+    }
+  
+    .cajaI img, .cajaIn img {
+      width: 80%; /* Las imágenes ocuparán el 80% del contenedor en pantallas pequeñas */
+      max-width: 400px; /* Limita el tamaño máximo en pantallas pequeñas */
+    }
+  
+    .text-3xl {
+      font-size: 1.5rem; /* Ajusta el tamaño del texto para pantallas pequeñas */
+    }
+  
+    .text-xl {
+      font-size: 1rem;
+    }
+  }
+  

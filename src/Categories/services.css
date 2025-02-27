@@ -1,52 +1,70 @@
-li{
-margin-left: 30px;
-
-font-size: x-large;
-
+/* Estilo general de los elementos li */
+li {
+  margin-left: 30px;
+  font-size: x-large;
 }
 
-.cuadroEx{
-    
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    
+/* Contenedor del carrusel */
+.cuadroEx {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-.carouselStyle{
-    margin: auto;
-    width: 90%;
-    height: auto;
-    
+/* Estilo del carrusel */
+.carouselStyle {
+  margin: auto;
+  width: 90%;
+  height: auto;
 }
 
-.slidesF{
-    border-radius: 20px;
-    padding-inline: 10px;
+/* Estilo de las imágenes en las slides */
+.slidesF {
+  border-radius: 20px;
+  padding-inline: 10px;
+  transition: transform 0.5s ease; /* Agregar transición para un mejor efecto al pasar de slide */
 }
 
-/* Modificar tamaño y color de las flechas */
-.slick-prev, .slick-next {
-    
-    color: #f59e0b; /* Color ámbar */
-    z-index: 10; /* Asegura que estén por encima de las imágenes */
-  }
-  
-  /* Cambiar posición de las flechas */
-  .slick-prev {
-    left: -50px; /* Mueve la flecha izquierda más hacia adentro */
-  }
-  
-  .slick-next {
-    right: -10px; /* Mueve la flecha derecha más hacia adentro */
-  }
-  
-  /* Agregar fondo a las flechas */
-  .slick-prev::before, .slick-next::before {
-    color: #f59e0b; /* Color ámbar */
-    font-size: 40px; /* Tamaño del icono de flecha */
-    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
-    border-radius: 50%; /* Flechas redondas */
-    padding: 10px; /* Espaciado interno */
-  }
+
+
+/* Ajustes de posición de las flechas */
+.slick-prev {
+  left: -50px; /* Mueve la flecha izquierda más hacia adentro */
+}
+
+.slick-next {
+  right: -10px; /* Mueve la flecha derecha más hacia adentro */
+}
+
+/* Agregar fondo a las flechas */
+.slick-prev::before, .slick-next::before {
+  color: #f59e0b; /* Color ámbar */
+  font-size: 40px; /* Tamaño del icono de flecha */
+  border-radius: 50%; /* Flechas redondas */
+  padding: 10px; /* Espaciado interno */
+ 
+}
+
+/* Opacidad para las slides laterales */
+.slick-slide {
+  transition: opacity 0.5s ease; /* Transición suave para el cambio de opacidad */
+}
+
+/* La slide centrada (activa) tiene opacidad total */
+.slick-center .slick-slide {
+  opacity: 1;
+}
+
+/* Las slides laterales tienen opacidad reducida */
+.slick-slide:not(.slick-center) {
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+/* Asegurarse de que las imágenes se ajusten correctamente */
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
   

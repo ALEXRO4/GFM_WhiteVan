@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import './services.css'
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const settings = {
@@ -11,8 +12,8 @@ const Services = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    
-  }
+    centerMode: true,
+  };
 
   return (
     <div>
@@ -32,15 +33,23 @@ const Services = () => {
       <div className='md:flex-row items-center gap-y-8 md:gap-y-4 gap-x-6 mt-8'>
         <div className='cuadroEx'> 
           <Slider {...settings} className='carouselStyle '> 
-            <div > 
-            <img src="/Images/crafter1.jpg" alt="Vehículo 1"  className='slidesF'/> 
-
+            <Link to="/Diapositivas/Diapositiva1">
+              <div> 
+                <img src="/Images/carrusel/camion.png" alt="Vehículo 1" className='slidesF'/> 
+                <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Camion 1</p>
+              </div>
+            </Link>
+            <div>
+              <img src="/Images/carrusel/crafter.png" alt="Vehículo 2" className='slidesF'/>
+              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Camion 2</p>
             </div>
             <div>
-              <img src="./Images/crafter1.jpg" alt="Vehículo 2"  className='slidesF'/>
+              <img src="./Images/carrusel/camion.png" alt="Vehículo 3" className='slidesF'/>
+              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Camion 3</p>
             </div>
             <div>
-              <img src="./Images/crafter1.jpg" alt="Vehículo 3"  className='slidesF'/>
+              <img src="/Images/carrusel/crafter.png" alt="Vehículo 4" className='slidesF'/>
+              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Camion 4</p>
             </div>
           </Slider>
         </div>
@@ -56,4 +65,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;

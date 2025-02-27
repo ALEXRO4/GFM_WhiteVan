@@ -1,0 +1,42 @@
+.cajaE {
+    display: flex;
+    flex-wrap: wrap; /* Evita desbordamientos */
+    width: 100%;
+}
+
+.cajaIz {
+    width: 50%;
+    background-color: blue;
+    padding: 10px;
+}
+
+.cajaDer {
+    width: 50%;
+    background-color: red;
+    padding: 10px;
+}
+
+.fotoU img {
+    width: 60%; /* Imagen principal más pequeña */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centrar */
+}
+
+.Imgs {
+    display: flex;
+    justify-content: center; /* Centrar imágenes */
+    align-items: center;
+    gap: 10px; /* Espaciado entre imágenes */
+    margin-top: 10px;
+}
+
+.fotoD, .fotoT {
+    width: 25%; /* Imágenes secundarias aún más pequeñas */
+}
+
+.fotoD img, .fotoT img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
