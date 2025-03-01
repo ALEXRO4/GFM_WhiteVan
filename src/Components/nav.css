@@ -5,3 +5,29 @@ nav {
   z-index: 10; 
   
 }
+
+/* Ocultar la imagen en pantallas pequeñas */
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  /* Centrar el texto "GFM White Van" */
+  .navbar-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Asegurarse de que el contenedor de la barra de navegación sea flexible y se adapte a pantallas pequeñas */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Asegurar que el contenido del navbar sea completamente visible */
+  .lg\\:hidden {
+    display: block !important;
+  }
+}

@@ -28,15 +28,16 @@ const NavBar = () => {
     <nav>
       <div className='h-10vh flex justify-between z-50 text-white lg:py-5 px-20 flex-1 bg-black'>
         <div className='flex items-center flex-1'>
-          <span><img src="/Images/logo.png" alt="logo" className='h-20 mx-auto' />
-          </span>
+          {/* Logo con clase 'logo' para que se oculte en pantallas pequeñas */}
+          <span><img src="/Images/logo.png" alt="logo" className='logo h-20 mx-auto' /></span>
         </div>
-        
-        <div className="flex flex-col items-center mt-3 font-serif lg:block-hidden">
+
+        {/* Texto que se muestra solo en pantallas pequeñas con clase 'navbar-text' */}
+        <div className="navbar-text flex flex-col items-center mt-3 font-serif lg:block-hidden">
           <div className="font-bold text-5xl text-amber-400 text-center">GFM</div>
           <div className="text-xl text-amber-400 text-center">White Van</div>
         </div>
-        
+
         <div className='lg:flex md:flex flex-1 items-center justify-end font-normal hidden'>
           <ul className='flex gap-8 m-6 text-[18px]'>
             <Link to="/gfm">
@@ -50,11 +51,11 @@ const NavBar = () => {
             </Link>
           </ul>
         </div>
-        
+
         <div>
           {click && content}
         </div>
-        
+
         <button className="block sm:hidden transition right-5" onClick={handleClick}>
           {click ? <FaTimes /> : <CiMenuFries />}
         </button>
