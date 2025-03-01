@@ -6,13 +6,23 @@
 
 .cajaIz {
     width: 50%;
-    background-color: blue;
     padding: 10px;
+    position: relative; /* Necesario para que el ::after se posicione dentro de este contenedor */
+}
+
+.cajaIz::after {
+    content: "";
+    position: absolute;
+    top: 40px;  /* Ajusta la posición inicial */
+    bottom: 10px; /* Ajusta la posición final */
+    right: 0;
+    width: 2px;
+    height: 90%; /* Define la altura exacta */
+    background: rgba(155, 142, 142, 0.192);
 }
 
 .cajaDer {
     width: 50%;
-    background-color: red;
     padding: 10px;
 }
 
@@ -39,4 +49,35 @@
     width: 100%;
     height: auto;
     display: block;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .cajaE {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    }
+
+    .cajaIz, .cajaDer {
+        width: 100%; /* Asegura que ambos contenedores ocupen todo el ancho */
+        padding: 10px;
+    }
+
+    /* Invertir el orden de los elementos: texto primero, luego imágenes */
+    .cajaDer {
+        order: -1; /* Coloca el texto primero */
+    }
+
+    .fotoU img {
+        width: 80%; /* Hacer la imagen principal un poco más grande */
+    }
+
+    .Imgs {
+        flex-direction: column; /* Coloca las imágenes secundarias debajo */
+        gap: 20px; /* Más espacio entre las imágenes */
+        margin-top: 20px;
+    }
+
+    .fotoD, .fotoT {
+        width: 80%; /* Hacer las imágenes secundarias más grandes */
+    }
 }

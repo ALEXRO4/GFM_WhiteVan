@@ -1,18 +1,45 @@
-import React from 'react'
-import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import './services.css'
+import React, { useState, useEffect } from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './services.css';
 import { Link } from 'react-router-dom';
 
 const Services = () => {
+  const [slidesToShow, setSlidesToShow] = useState(3);
+
+  useEffect(() => {
+    const updateSlidesToShow = () => {
+      if (window.innerWidth < 768) {
+        setSlidesToShow(1);
+      } else if (window.innerWidth < 1024) {
+        setSlidesToShow(2);
+      } else {
+        setSlidesToShow(3);
+      }
+    };
+
+    updateSlidesToShow(); // Llamada inicial
+    window.addEventListener("resize", updateSlidesToShow);
+    
+    return () => window.removeEventListener("resize", updateSlidesToShow);
+  }, []);
+
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
-    centerMode: true,
+    centerMode: slidesToShow > 1, // Desactiva centerMode si solo hay 1 diapositiva
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -32,7 +59,7 @@ const Services = () => {
 
       <div className='md:flex-row items-center gap-y-8 md:gap-y-4 gap-x-6 mt-8'>
         <div className='cuadroEx'> 
-          <Slider {...settings} className='carouselStyle '> 
+          <Slider {...settings} className='carouselStyle'> 
             <Link to="/Diapositivas/Diapositiva1">
               <div> 
                 <img src="/Images/carrusel/camion.png" alt="Vehículo 1" className='slidesF'/> 
@@ -44,7 +71,7 @@ const Services = () => {
               <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Camion 2</p>
             </div>
             <div>
-              <img src="./Images/carrusel/camion.png" alt="Vehículo 3" className='slidesF'/>
+              <img src="/Images/carrusel/camion.png" alt="Vehículo 3" className='slidesF'/>
               <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Camion 3</p>
             </div>
             <div>
@@ -62,7 +89,7 @@ const Services = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Services;

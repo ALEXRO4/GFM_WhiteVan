@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './contact.css';
 const Contact = () => {
   return (
     <div>
@@ -68,42 +68,29 @@ const Contact = () => {
                     <div className="grid grid-cols-6 gap-4">
                       <div className="col-start-1 col-end-5">
                         <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg">
-                          <img src="recursos/media/Iconos/telephone2.png" alt="Telefono-icon" />
+                          <img src="/Images/Icons/phone-call.png" alt="Telefono-icon" />
                         </div>
                         <p className="contactos">+55 0000 0000</p>
                       </div>
                       <div className="separacion col-start-1 col-end-5">
                         <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg">
-                          <img src="recursos/media/Iconos/smartphone.png" alt="cellphone-icon" />
+                          <img src="/Images/Icons/smartphone.png" alt="cellphone-icon" />
                         </div>
                         <p className="contactos">+55 0000 0000</p>
                       </div>
                       <div className="col-start-1 col-end-5">
                         <div className="absolute h-10 w-10 items-center justify-center rounded-lg">
-                          <img src="recursos/media/Iconos/mail.png" alt="mail-icon" />
+                          <img src="/Images/Icons/mail.png" alt="mail-icon" />
                         </div>
                         <p className="contactos">aaaaaaaaaaaa</p>
                       </div>
                       <div className="col-start-1 col-end-5">
                         <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg">
-                          <img src="recursos/media/Iconos/mail.png" alt="mail-icon" />
+                          <img src="/Images/Icons/mail.png" alt="mail-icon" />
                         </div>
                         <p className="contactos">aaaaaaaaaaaa</p>
                       </div>
-                      <div className="col-start-2 espaciado-redes">
-                        <a href="https://www.facebook.com/GrandesIdeasenMontajesyTraslados" target="_blank" rel="noopener noreferrer">
-                          <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg bg-zinc-200">
-                            <img src="recursos/media/Iconos/facebook2.png" alt="facebook-icon" />
-                          </div>
-                        </a>
-                      </div>
-                      <div className="col-start-4 espaciado-redes">
-                        <a href="https://www.instagram.com/gimt_grandesideas/" target="_blank" rel="noopener noreferrer">
-                          <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg bg-zinc-200">
-                            <img src="recursos/media/Iconos/instagram2.png" alt="instagram-icon" />
-                          </div>
-                        </a>
-                      </div>
+                      
                     </div>
                   </div>
                 </dt>

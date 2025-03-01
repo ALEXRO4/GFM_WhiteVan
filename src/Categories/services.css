@@ -1,70 +1,75 @@
-/* Estilo general de los elementos li */
-li {
-  margin-left: 30px;
-  font-size: x-large;
-}
-
-/* Contenedor del carrusel */
-.cuadroEx {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-/* Estilo del carrusel */
-.carouselStyle {
-  margin: auto;
-  width: 90%;
-  height: auto;
-}
-
-/* Estilo de las imágenes en las slides */
-.slidesF {
-  border-radius: 20px;
-  padding-inline: 10px;
-  transition: transform 0.5s ease; /* Agregar transición para un mejor efecto al pasar de slide */
-}
-
-
-
-/* Ajustes de posición de las flechas */
-.slick-prev {
-  left: -50px; /* Mueve la flecha izquierda más hacia adentro */
-}
-
-.slick-next {
-  right: -10px; /* Mueve la flecha derecha más hacia adentro */
-}
-
-/* Agregar fondo a las flechas */
-.slick-prev::before, .slick-next::before {
-  color: #f59e0b; /* Color ámbar */
-  font-size: 40px; /* Tamaño del icono de flecha */
-  border-radius: 50%; /* Flechas redondas */
-  padding: 10px; /* Espaciado interno */
- 
-}
-
-/* Opacidad para las slides laterales */
-.slick-slide {
-  transition: opacity 0.5s ease; /* Transición suave para el cambio de opacidad */
-}
-
-/* La slide centrada (activa) tiene opacidad total */
-.slick-center .slick-slide {
-  opacity: 1;
-}
-
-/* Las slides laterales tienen opacidad reducida */
-.slick-slide:not(.slick-center) {
-  opacity: 0.5;
-  transform: scale(0.8);
-}
-
 /* Asegurarse de que las imágenes se ajusten correctamente */
 .slick-slide img {
   max-width: 100%;
   height: auto;
 }
 
-  
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+  /* Ajustar el tamaño de las flechas */
+  .slick-prev::before, .slick-next::before {
+    font-size: 30px; /* Hacer las flechas más pequeñas */
+    padding: 8px; /* Reducir el padding */
+  }
+
+  .slick-prev {
+    left: -30px; /* Mover las flechas más adentro */
+  }
+
+  .slick-next {
+    right: -5px; /* Mover las flechas más adentro */
+  }
+
+  /* Ajustar la imagen del carrusel para pantallas pequeñas */
+  .slick-slide img {
+    border-radius: 10px; /* Ajustar el borde para que sea menos pronunciado */
+  }
+
+  /* Resaltar la imagen activa */
+  .slick-center .slick-slide {
+    transform: scale(1.1); /* Agrandar la imagen aún más */
+    box-shadow: 0 0 30px rgba(255, 165, 0, 0.8); /* Más sombra ámbar */
+  }
+}
+
+/* Media Query para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  /* En pantallas muy pequeñas, hacer las flechas aún más pequeñas */
+  .slick-prev::before, .slick-next::before {
+    font-size: 25px; /* Hacer las flechas más pequeñas */
+    padding: 6px; /* Reducir aún más el padding */
+  }
+
+  /* Ajustar las imágenes para que se vean adecuadamente en dispositivos pequeños */
+  .slick-slide img {
+    border-radius: 5px; /* Asegurarse de que las imágenes tengan bordes suaves */
+  }
+
+  /* Resaltar la imagen activa aún más */
+  .slick-center .slick-slide {
+    transform: scale(1.15); /* Aumentar un poco más el tamaño */
+    box-shadow: 0 0 40px rgba(255, 165, 0, 1); /* Resaltar con sombra más intensa */
+  }
+
+  /* Desactivar la opacidad reducida solo para pantallas muy pequeñas */
+  .slick-slide:not(.slick-center) {
+    opacity: 1 !important; /* Asegurarse de que las slides laterales no tengan opacidad */
+    transform: scale(1); /* Normalizar el tamaño */
+  }
+}
+
+/* No modificar el comportamiento en pantallas grandes o medianas */
+@media (min-width: 768px) {
+  /* Las diapositivas laterales tendrán opacidad reducida */
+  .slick-slide:not(.slick-center) {
+    opacity: 0.5; /* Opacidad reducida para las slides laterales */
+    transform: scale(0.8); /* Reducir el tamaño de las slides laterales */
+  }
+
+  /* La slide activa (centrada) tendrá opacidad total */
+  .slick-center .slick-slide {
+    opacity: 1;
+    transform: scale(1.05); /* Agrandar la imagen activa ligeramente */
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.7); /* Añadir sombra ámbar para resaltar */
+  }
+}

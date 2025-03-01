@@ -17,12 +17,15 @@ const Footer = () => {
         <div className="flex-1 p-4 text-center">
           <h2 className="text-lg font-bold mb-2 text-white">Contactos</h2>
           <div className=' text-white'>
-            adasd
+            gfmwhitevan@hotmail.com
+          </div>
+          <div className='text-white mt-2'>
+            ubicados en: 
           </div>
         </div>
 
         {/* Sección "GMF" */}
-        <div className="flex-1 pt-4  font-serif border-l-2 my-8"><a href="#">
+        <div className="flex-1 pt-4 font-serif border-l-0 md:border-l-2 my-8"><a href="#">
         <div className="font-bold text-5xl text-amber-400 text-center ">GFM</div>
         <div className="text-xl text-amber-400 text-center">White Van</div>
         </a>
