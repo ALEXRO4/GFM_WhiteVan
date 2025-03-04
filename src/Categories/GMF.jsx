@@ -26,7 +26,7 @@ const GMF = () => {
         
         <div className="flex-1 flex justify-center items-center">
           <img
-            src="./Images/crafter2.jpg"
+            src="./Images/crafter2.jpeg"
             alt="Misión"
             className="w-3/4 rounded-lg shadow-lg mx-auto pt-4"
           />

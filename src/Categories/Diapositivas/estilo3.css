@@ -47,19 +47,17 @@
 
 .fotoD img, .fotoT img {
     width: 100%;
-    height: auto;
+    height: 350px; /* Altura fija para que todas tengan la misma altura */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
     display: block;
 }
 
 .fondo{
-    
+    position: relative;
     display: flex;
+    top:50%;
     justify-content: space-evenly;
     
-}
-.botones{
-    display: flex;
-    align-items: center;
 }
 
 /* Media query para pantallas pequeñas */

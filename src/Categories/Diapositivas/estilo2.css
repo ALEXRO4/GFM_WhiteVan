@@ -42,24 +42,23 @@
 }
 
 .fotoD, .fotoT {
-    width: 25%; /* Imágenes secundarias aún más pequeñas */
+    width: 25%;
+    height: 400px; /* Asegura que todas las imágenes secundarias tengan la misma altura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .fotoD img, .fotoT img {
     width: 100%;
-    height: auto;
+    height: 100%; 
+    object-fit: cover;
     display: block;
 }
-
 .fondo{
-    
+    position: relative;
     display: flex;
     justify-content: space-evenly;
-    
-}
-.botones{
-    display: flex;
-    align-items: center;
+    top:50%;
 }
 
 /* Media query para pantallas pequeñas */

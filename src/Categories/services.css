@@ -73,3 +73,28 @@
     box-shadow: 0 0 20px rgba(255, 165, 0, 0.7); /* Añadir sombra ámbar para resaltar */
   }
 }
+
+/* Asegurarse de que las imágenes se ajusten correctamente */
+.slick-slide img {
+  width: 350px; /* Aumentamos el tamaño */
+  height: 250px;
+  object-fit: cover; /* Mantiene las proporciones y recorta si es necesario */
+  border-radius: 10px; /* Bordes redondeados */
+  display: block; /* Evita espacios extra alrededor de las imágenes */
+  margin: 0 auto; /* Centra las imágenes dentro de cada slide */
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .slick-slide img {
+    width: 300px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slick-slide img {
+    width: 270px;
+    height: 200px;
+  }
+}

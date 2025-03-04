@@ -52,14 +52,10 @@
 }
 
 .fondo{
-    
+    position: relative;
+    top: 50%;
     display: flex;
-    justify-content: space-evenly;
-    
-}
-.botones{
-    display: flex;
-    align-items: center;
+    justify-content: space-evenly
 }
 
 /* Media query para pantallas pequeñas */
