@@ -68,13 +68,13 @@ const Contact = () => {
                     <div className="grid grid-cols-6 gap-4">
                       <div className="col-start-1 col-end-5">
                         <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg">
-                          <img src="/Images/Icons/phone-call.png" alt="Telefono-icon" />
+                          <img src="/Images/Icons/smartphone.png" alt="Telefono-icon" />
                         </div>
                         <p className="contactos">+52 1 55 6190 0601</p>
                       </div>
                       <div className="separacion col-start-1 col-end-5">
                         <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg">
-                          <img src="/Images/Icons/phone-call.png" alt="cellphone-icon" />
+                          <img src="/Images/Icons/smartphone.png" alt="cellphone-icon" />
                         </div>
                         <p className="contactos">+52 1 55 2251 8394</p>
                       </div>

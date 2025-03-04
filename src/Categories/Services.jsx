@@ -68,7 +68,7 @@ const Services = () => {
             </Link>
             <Link to="/Diapositivas/Diapositiva2">
             <div>
-              <img src="/Images/carrusel/hiace.png" alt="Vehículo 2" className='slidesF'/>
+              <img src="/Images/carrusel/toyotahiace.png" alt="Vehículo 2" className='slidesF'/>
               <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Toyota Hiace</p>
             </div>
             </Link>
@@ -80,7 +80,7 @@ const Services = () => {
             </Link>
             <Link to="/Diapositivas/Diapositiva4">
             <div>
-              <img src="/Images/carrusel/" alt="Vehículo 4" className='slidesF'/>
+              <img src="/Images/carrusel/toyota.png" alt="Vehículo 4" className='slidesF'/>
               <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Toyota</p>
             </div>
             </Link>

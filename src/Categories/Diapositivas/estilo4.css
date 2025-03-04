@@ -51,12 +51,12 @@
     display: block;
 }
 
-.fondo4{
-    
+.fondo{
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 25%;
+    top: 30%;
+    
 }
 
 .botones{

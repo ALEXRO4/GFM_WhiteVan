@@ -75,16 +75,16 @@ const Diapositiva1 = () => {
                 <svg className="w-3.5 h-3.5 me-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 5H1m0 0 4 4M1 5l4-4" />
                 </svg>
-                Anterior
+                <div className='font-semibold transition border-b-2 border-black hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Anterior</div>
               </div>
             </Link>
             <Link to="/Contact">
 
-              <div>Contactanos</div>
+              <div className='font-semibold transition border-b-2 border-black hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Agenda una cita</div>
             </Link>
             <Link to="/Diapositivas/Diapositiva2">
               <div className='botones'>
-                Siguiente
+                <div className='font-semibold transition border-b-2 border-black hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Siguiente</div>
                 <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                 </svg>

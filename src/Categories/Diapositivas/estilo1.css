@@ -56,7 +56,7 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 25%;
+    top: 27%;
 }
 
 .botones{
@@ -74,6 +74,7 @@
     .cajaIz, .cajaDer {
         width: 100%; /* Asegura que ambos contenedores ocupen todo el ancho */
         padding: 10px;
+        margin-bottom: 50px;
     }
 
     /* Invertir el orden de los elementos: texto primero, luego imágenes */
@@ -83,12 +84,18 @@
 
     .fotoU img {
         width: 80%; /* Hacer la imagen principal un poco más grande */
+        padding-bottom: 40px;
     }
 
-    .Imgs {
-        flex-direction: column; /* Coloca las imágenes secundarias debajo */
-        gap: 20px; /* Más espacio entre las imágenes */
-        margin-top: 20px;
+    
+    
+
+    .fotoD {
+       margin-bottom: 90px;
+        
+        
+        
+       
     }
 
     .fotoD, .fotoT {
