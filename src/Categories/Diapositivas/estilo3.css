@@ -52,12 +52,11 @@
     display: block;
 }
 
-.fondo{
-    position: relative;
+.fondo3{
     display: flex;
-    top:50%;
     justify-content: space-evenly;
-    
+    position: relative;
+    top: 25%;
 }
 
 /* Media query para pantallas pequeñas */

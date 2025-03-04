@@ -51,16 +51,19 @@
     display: block;
 }
 
-.fondo{
+.fondo1{
     
     display: flex;
     justify-content: space-evenly;
-    
+    position: relative;
+    top: 25%;
 }
+
 .botones{
     display: flex;
     align-items: center;
 }
+
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {

@@ -54,11 +54,16 @@
     object-fit: cover;
     display: block;
 }
-.fondo{
+.fondo2{
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    top:50%;
+    top: 20%;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
 }
 
 /* Media query para pantallas pequeñas */

@@ -20,7 +20,7 @@ const Footer = () => {
             gfmwhitevan@hotmail.com
           </div>
           <div className='text-white mt-2'>
-            ubicados en: 
+          Cuarta cerrada de rio Churubusco # 38 colonia agricultura Pantitlan alcaldía Iztacalco C.P. 08100
           </div>
         </div>
 

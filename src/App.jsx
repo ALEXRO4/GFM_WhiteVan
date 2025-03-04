@@ -9,7 +9,7 @@ import Diapositiva1 from './Categories/Diapositivas/Diapositiva1';
 import Diapositiva2 from './Categories/Diapositivas/Diapositiva2';
 import Diapositiva3 from './Categories/Diapositivas/Diapositiva3';
 import Diapositiva4 from './Categories/Diapositivas/Diapositiva4';
-
+import Diapositiva5 from './Categories/Diapositivas/Diapositiva5';
 const App = () => {
   return (
     <Router>
@@ -23,6 +23,7 @@ const App = () => {
           <Route path="/Diapositivas/Diapositiva2" element={<Diapositiva2 />} />
           <Route path="/Diapositivas/Diapositiva3" element={<Diapositiva3 />} />
           <Route path="/Diapositivas/Diapositiva4" element={<Diapositiva4 />} />
+          <Route path="/Diapositivas/Diapositiva5" element={<Diapositiva5 />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
