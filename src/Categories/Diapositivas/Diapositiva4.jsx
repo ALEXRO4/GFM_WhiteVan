@@ -62,7 +62,7 @@ const Diapositiva4 = () => {
                   </Link>
                   <Link to="/Contact">
       
-                    <div className='font-semibold transition text-2xl text-amber-500 hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Agenda una cita</div>
+                    <div className='font-semibold transition  text-amber-500 hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Contactanos</div>
                   </Link>
                   <Link to="/Diapositivas/Diapositiva5">
                     <div className='botones4 text-amber-500 hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>
