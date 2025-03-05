@@ -6,37 +6,34 @@ import './estilo3.css';
 const Diapositiva3 = () => {
   return (
     <div>
-      <div className='cajaE'>
-        <div className='cajaIz'>
-          <div className='fotoU'>
-            <img src="/Images/especs/suburbanLat.jpg" alt="foto1" className='rounded-lg' />
+      <div className='cajaE3'>
+        <div className='cajaIz3'>
+          <div className='fotoU3'>
+            <img src="/Images/especs/suburban2.jpeg" alt="foto1" className='rounded-lg' />
           </div>
-          <div className='Imgs'>
-            <div className='fotoD mx-10 '>
-              <img src="/Images/especs/suburbanDentro.png" alt="foto2" className='rounded-lg' />
+          <div className='Imgs3'>
+            <div className='fotoD3 mx-10 '>
+              <img src="/Images/especs/suburban3.jpeg" alt="foto2" className='rounded-lg' />
             </div>
-            <div className='fotoT mx-10'>
-              <img src="/Images/especs/suburbanFrente.jpeg" alt="foto3" className='rounded-lg' />
-            </div>
+            
           </div>
         </div>
-        <div className='cajaDer'>
+        <div className='cajaDer3'>
           <h2 className='font-bold text-4xl border-b-2 py-2 mx-6 text-center'>Camioneta Suburban</h2>
           <h3 className='font-semibold text-2xl mt-10'>Descripción</h3>
-          <div className='arriba text-justify text-lg'>La <strong className='text-amber-500'>Chevrolet Suburban</strong> es un SUV de gran tamaño, 
-          <strong className='text-amber-500'> robusto</strong> y <strong className='text-amber-500'>elegante</strong>, ideal para excursiones y viajes largos. 
-          Su diseño ofrece un interior <strong className='text-amber-500'>amplio</strong> y <strong className='text-amber-500'>confortable</strong>, con asientos de alta 
-          calidad y una excelente capacidad de carga. Equipado con <strong className='text-amber-500'>tecnología avanzada</strong>, incluye un sistema de 
-          <strong className='text-amber-500'> climatización</strong> para asegurar la comodidad de todos los ocupantes. Su 
-          <strong className='text-amber-500'> potente motor</strong> y <strong className='text-amber-500'>tracción en las cuatro ruedas </strong> 
-          permiten un rendimiento sólido tanto en caminos urbanos como en terrenos más desafiantes. Es perfecta para quienes buscan un vehículo 
-          <strong className='text-amber-500'> confiable</strong>, <strong className='text-amber-500'>espacioso</strong> y con gran capacidad para aventuras al aire libre.
+          <div className='arriba3 text-justify text-lg'>
+          Suburban es una <strong className='text-amber-500'>SUV grande</strong> ideal para <strong className='text-amber-500'>familias numerosas </strong> 
+          o para quienes un <strong className='text-amber-500'>vehículo de lujo</strong>, <strong className='text-amber-500'>espacio </strong> y 
+          <strong className='text-amber-500'> capacidad de remolque</strong>. Su combinación de <strong className='text-amber-500'>potente motor</strong>, 
+          <strong className='text-amber-500'> amplio interior</strong>, <strong className='text-amber-500'>opciones de lujo</strong> la convierten en una excelente opción para 
+          <strong className='text-amber-500'> viajes largos</strong> como <strong className='text-amber-500'>transportes comerciales</strong> y 
+          <strong className='text-amber-500'> uso familiar</strong>.
           </div>
           <h3 className='font-semibold text-2xl mt-10'>Características</h3>
-          <div className='abajo'><ul className='text-justify text-lg list-none'>
+          <div className='abajo3'><ul className='text-justify text-lg list-none'>
               <li className="flex items-center">
                 <img src="/Images/viñeta1.svg" alt="icon" className="w-5 h-5 mr-2" />
-                12 Pasajeros
+                9 Pasajeros
               </li>
               <li className="flex items-center">
                 <img src="/Images/viñeta1.svg" alt="icon" className="w-5 h-5 mr-2" />
@@ -62,20 +59,20 @@ const Diapositiva3 = () => {
           </div>
           <div className='fondo3'>
             <Link to="/Diapositivas/Diapositiva2">
-              <div className='botones'>
+              <div className='botones3 transition  text-amber-500 hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>
                 <svg className="w-3.5 h-3.5 me-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 5H1m0 0 4 4M1 5l4-4" />
                 </svg>
-                <div className='font-semibold transition border-b-2 border-black hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Anterior</div>
+                <div className='font-semibold '>Anterior</div>
               </div>
             </Link>
             <Link to="/Contact">
 
-              <div className='font-semibold transition border-b-2 border-black hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Agenda una cita</div>
+              <div className='font-semibold transition text-2xl text-amber-500 hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Agenda una cita</div>
             </Link>
             <Link to="/Diapositivas/Diapositiva4">
-              <div className='botones'>
-                <div className='font-semibold transition border-b-2 border-black hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>Siguiente</div>
+              <div className='botones3 transition  text-amber-500 hover:border-amber-500 hover:text-yellow-600 cursor-pointer'>
+                <div className='font-semibold '>Siguiente</div>
                 <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                 </svg>

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between gap-4">
         {/* Sección "About Us" */}
         <div className="flex-1 p-4 text-gray-300">
-          <h2 className="text-lg font-bold  mb-4 text-white text-center">About Us</h2>
+          <h2 className="text-lg font-bold  mb-4 text-white text-center">Nosotros</h2>
           <p className='text-justify'>
           Somos una empresa consolidada en el sector del transporte, con un equipo altamente especializado. Ofrecemos soluciones eficientes y de calidad, respaldadas por años de experiencia y un firme compromiso con la satisfacción y confianza de nuestros clientes.
           </p>

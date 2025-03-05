@@ -1,98 +1,132 @@
-.cajaE {
+.cajaE2 {
     display: flex;
-    flex-wrap: wrap; /* Evita desbordamientos */
+    flex-wrap: wrap;
     width: 100%;
 }
 
-.cajaIz {
+.cajaIz2 {
     width: 50%;
     padding: 10px;
-    position: relative; /* Necesario para que el ::after se posicione dentro de este contenedor */
+    position: relative;
 }
 
-.cajaIz::after {
+.cajaIz2::after {
     content: "";
     position: absolute;
-    top: 40px;  /* Ajusta la posición inicial */
-    bottom: 10px; /* Ajusta la posición final */
+    top: 40px;
+    bottom: 10px;
     right: 0;
     width: 2px;
-    height: 90%; /* Define la altura exacta */
+    height: 90%;
     background: rgba(155, 142, 142, 0.192);
 }
 
-.cajaDer {
+.cajaDer2 {
     width: 50%;
     padding: 10px;
 }
 
-.fotoU img {
-    width: 60%; /* Imagen principal más pequeña */
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centrar */
-}
-
-.Imgs {
-    display: flex;
-    justify-content: center; /* Centrar imágenes */
-    align-items: center;
-    gap: 10px; /* Espaciado entre imágenes */
-    margin-top: 10px;
-}
-
-.fotoD, .fotoT {
-    width: 25%;
-    height: 400px; /* Asegura que todas las imágenes secundarias tengan la misma altura */
+/* Contenedor de la imagen U */
+.fotoU2 {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.fotoD img, .fotoT img {
-    width: 100%;
-    height: 100%; 
-    object-fit: cover;
+
+/* Imagen U ocupando todo el espacio horizontal */
+.fotoU2 img {
+    width: 50%; /* Se reduce al 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de altura */
+    object-fit: contain; /* Ajusta la imagen sin perder proporciones */
     display: block;
+    
 }
-.fondo2{
+
+/* Contenedor de imágenes en columna */
+.Imgs2 {
+    display: flex;
+    flex-direction: column; /* Las imágenes se apilan verticalmente */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 70px;
+}
+
+.fotoT2{
+    padding-bottom: 50px;
+}
+/* El contenedor de las imágenes D y T */
+.fotoD2, .fotoT2 {
+    width: 100%; /* Asegura que cada imagen ocupe todo el ancho del contenedor */
+    height: 200px; /* Establece una altura más pequeña */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px; /* Añade espacio entre las imágenes */
+}
+
+/* Imágenes dentro de fotoD y fotoT */
+.fotoD2 img, .fotoT2 img {
+    width: 50%; /* Ajusta al 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+    object-fit: contain; /* Ajusta la imagen sin distorsionar */
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.fondo2 {
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    top: 20%;
+    top: 10%;
 }
 
-.botones{
+.botones2 {
     display: flex;
     align-items: center;
 }
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
-    .cajaE {
-        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    .cajaE2 {
+        flex-direction: column;
+        
     }
 
-    .cajaIz, .cajaDer {
-        width: 100%; /* Asegura que ambos contenedores ocupen todo el ancho */
+    .cajaIz2, .cajaDer2 {
+        width: 100%;
         padding: 10px;
     }
 
-    /* Invertir el orden de los elementos: texto primero, luego imágenes */
-    .cajaDer {
-        order: -1; /* Coloca el texto primero */
+    .abajo2 {
+        margin-bottom: 40px;
     }
 
-    .fotoU img {
-        width: 80%; /* Hacer la imagen principal un poco más grande */
+    .cajaDer2 {
+        order: -1;
     }
 
-    .Imgs {
-        flex-direction: column; /* Coloca las imágenes secundarias debajo */
-        gap: 20px; /* Más espacio entre las imágenes */
-        margin-top: 20px;
+    /* Ajustar la imagen principal para pantallas pequeñas */
+    .fotoU2  img {
+        margin-top: 40px;
+        width: 100%; /* Reducir al 50% del ancho del contenedor */
+        height: auto;
+        object-fit: contain; /* Mantener la proporción de la imagen */
+        
+    }
+    
+
+    /* Mantener las imágenes en columna y con tamaños uniformes */
+    .Imgs2 {
+        flex-direction: column; /* Apilar las imágenes en columna */
+        width: 100%;
+        margin-top: 0;
     }
 
-    .fotoD, .fotoT {
-        width: 80%; /* Hacer las imágenes secundarias más grandes */
+    .fotoD2 img, .fotoT2 img {
+        width: 100%;
     }
 }

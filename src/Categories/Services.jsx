@@ -62,32 +62,32 @@ const Services = () => {
           <Slider {...settings} className='carouselStyle'> 
             <Link to="/Diapositivas/Diapositiva1">
               <div> 
-                <img src="/Images/carrusel/crafterLat.png" alt="Vehículo 1" className='slidesF'/> 
-                <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Crafter</p>
+                <img src="/Images/carrusel/splinter.png" alt="Vehículo 1" className='slidesF'/> 
+                <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Splinter / Crafter (20P)</p>
               </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva2">
             <div>
               <img src="/Images/carrusel/toyotahiace.png" alt="Vehículo 2" className='slidesF'/>
-              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Toyota Hiace</p>
+              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Toyota Hiace (12P)</p>
             </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva3">
             <div>
               <img src="/Images/carrusel/suburban.png" alt="Vehículo 3" className='slidesF'/>
-              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Suburban</p>
+              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Suburban (9P)</p>
             </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva4">
             <div>
               <img src="/Images/carrusel/toyota.png" alt="Vehículo 4" className='slidesF'/>
-              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Toyota</p>
+              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Toyota Hiace (15P)</p>
             </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva5">
             <div>
               <img src="/Images/carrusel/vento.png" alt="Vehículo 5" className='slidesF'/>
-              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Coches</p>
+              <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Coches (4P)</p>
             </div>
             </Link>
           </Slider>

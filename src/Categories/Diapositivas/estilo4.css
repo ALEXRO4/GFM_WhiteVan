@@ -1,96 +1,136 @@
-.cajaE {
+.cajaE4 {
     display: flex;
-    flex-wrap: wrap; /* Evita desbordamientos */
+    flex-wrap: wrap;
     width: 100%;
 }
 
-.cajaIz {
+.cajaIz4 {
     width: 50%;
     padding: 10px;
-    position: relative; /* Necesario para que el ::after se posicione dentro de este contenedor */
+    position: relative;
 }
 
-.cajaIz::after {
+.cajaIz4::after {
     content: "";
     position: absolute;
-    top: 40px;  /* Ajusta la posición inicial */
-    bottom: 10px; /* Ajusta la posición final */
+    top: 40px;
+    bottom: 10px;
     right: 0;
     width: 2px;
-    height: 90%; /* Define la altura exacta */
+    height: 90%;
     background: rgba(155, 142, 142, 0.192);
 }
 
-.cajaDer {
+.cajaDer4 {
     width: 50%;
     padding: 10px;
 }
 
-.fotoU img {
-    width: 60%; /* Imagen principal más pequeña */
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centrar */
-}
-
-.Imgs {
-    display: flex;
-    justify-content: center; /* Centrar imágenes */
-    align-items: center;
-    gap: 10px; /* Espaciado entre imágenes */
-    margin-top: 10px;
-}
-
-.fotoD, .fotoT {
-    width: 25%; /* Imágenes secundarias aún más pequeñas */
-}
-
-.fotoD img, .fotoT img {
+/* Contenedor de la imagen U */
+.fotoU4 {
     width: 100%;
-    height: auto;
-    display: block;
-}
-
-.fondo{
     display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    top: 30%;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.botones{
+/* Imagen U ocupando todo el espacio horizontal */
+.fotoU4 img {
+    width: 50%; /* Se reduce al 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de altura */
+    object-fit: contain; /* Ajusta la imagen sin perder proporciones */
+    display: block;
+    padding-bottom: 60px;
+    padding-top: 10px;
+    
+    
+}
+
+/* Contenedor de imágenes en columna */
+.Imgs4 {
+    display: flex;
+    flex-direction: column; /* Las imágenes se apilan verticalmente */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 70px;
+}
+
+.fotoT4{
+    padding-bottom: 15px;
+}
+/* El contenedor de las imágenes D y T */
+.fotoD4, .fotoT4 {
+    width: 100%; /* Asegura que cada imagen ocupe todo el ancho del contenedor */
+    height: 200px; /* Establece una altura más pequeña */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px; /* Añade espacio entre las imágenes */
+}
+
+/* Imágenes dentro de fotoD y fotoT */
+.fotoD4 img, .fotoT4 img {
+    width: 50%; /* Ajusta al 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+    object-fit: contain; /* Ajusta la imagen sin distorsionar */
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.fondo4 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 10%;
+}
+
+.botones4 {
     display: flex;
     align-items: center;
 }
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 768px) {
-    .cajaE {
-        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    .cajaE4 {
+        flex-direction: column;
+        
     }
 
-    .cajaIz, .cajaDer {
-        width: 100%; /* Asegura que ambos contenedores ocupen todo el ancho */
+    .cajaIz4, .cajaDer4 {
+        width: 100%;
         padding: 10px;
     }
 
-    /* Invertir el orden de los elementos: texto primero, luego imágenes */
-    .cajaDer {
-        order: -1; /* Coloca el texto primero */
+    .abajo4 {
+        margin-bottom: 40px;
     }
 
-    .fotoU img {
-        width: 80%; /* Hacer la imagen principal un poco más grande */
+    .cajaDer4 {
+        order: -1;
     }
 
-    .Imgs {
-        flex-direction: column; /* Coloca las imágenes secundarias debajo */
-        gap: 20px; /* Más espacio entre las imágenes */
-        margin-top: 20px;
+    /* Ajustar la imagen principal para pantallas pequeñas */
+    .fotoU4  img {
+        margin-top: 40px;
+        width: 100%; /* Reducir al 50% del ancho del contenedor */
+        height: auto;
+        object-fit: contain; /* Mantener la proporción de la imagen */
+        
+    }
+    
+
+    /* Mantener las imágenes en columna y con tamaños uniformes */
+    .Imgs4{
+        flex-direction: column; /* Apilar las imágenes en columna */
+        width: 100%;
+        margin-top: 0;
     }
 
-    .fotoD, .fotoT {
-        width: 80%; /* Hacer las imágenes secundarias más grandes */
+    .fotoD4 img, .fotoT4 img {
+        width: 100%;
     }
 }
