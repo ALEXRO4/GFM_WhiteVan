@@ -23,7 +23,7 @@ const Diapositiva1 = () => {
           </div>
         </div>
         <div className='cajaDer1'>
-          <h2 className='font-bold text-4xl border-b-2 py-2 mx-6 text-center'>Camionetas Splinter / Crafter</h2>
+          <h2 className='font-bold text-4xl border-b-2 py-2 mx-6 text-center'>Camionetas Sprinter / Crafter</h2>
           <h3 className='font-semibold text-2xl mt-10'>Descripción</h3>
           <div className='arriba1 text-justify text-lg'>
           La <strong className='text-amber-500'>Splinter / Crafter</strong> para excursiones es una furgoneta <strong className='text-amber-500'>robusta</strong> y 
