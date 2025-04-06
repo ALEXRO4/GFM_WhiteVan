@@ -90,13 +90,13 @@ const Contact = () => {
                         <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg">
                           <img src="/Images/Icons/smartphone.png" alt="Telefono-icon" />
                         </div>
-                        <p className="contactos">+52 1 55 6190 0601</p>
+                        <p className="contactos">+52 1 55 8062 5857</p>
                       </div>
                       <div className="separacion col-start-1 col-end-5">
                         <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg">
                           <img src="/Images/Icons/smartphone.png" alt="cellphone-icon" />
                         </div>
-                        <p className="contactos">+52 1 55 2251 8394</p>
+                        <p className="contactos">+52 1 55 4133 4597</p>
                       </div>
                       <div className="col-start-1 col-end-5">
                         <div className="absolute h-10 w-10 items-center justify-center rounded-lg">

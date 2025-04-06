@@ -63,7 +63,7 @@ const Services = () => {
             <Link to="/Diapositivas/Diapositiva1">
               <div> 
                 <img src="/Images/carrusel/splinter.png" alt="Vehículo 1" className='slidesF'/> 
-                <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Splinter / Crafter (20P)</p>
+                <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Sprinter / Crafter (20P)</p>
               </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva2">

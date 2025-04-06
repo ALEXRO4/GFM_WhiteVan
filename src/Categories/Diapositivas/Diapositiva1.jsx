@@ -26,7 +26,7 @@ const Diapositiva1 = () => {
           <h2 className='font-bold text-4xl border-b-2 py-2 mx-6 text-center'>Camionetas Sprinter / Crafter</h2>
           <h3 className='font-semibold text-2xl mt-10'>Descripción</h3>
           <div className='arriba1 text-justify text-lg'>
-          La <strong className='text-amber-500'>Splinter / Crafter</strong> para excursiones es una furgoneta <strong className='text-amber-500'>robusta</strong> y 
+          La <strong className='text-amber-500'>Sprinter / Crafter</strong> para excursiones es una furgoneta <strong className='text-amber-500'>robusta</strong> y 
           <strong className='text-amber-500'> espaciosa</strong>, diseñada para ofrecer <strong className='text-amber-500'>comodidad</strong> y 
           <strong className='text-amber-500'> seguridad</strong> en viajes largos y por terrenos variados. Con un interior amplio, cuenta con 
           <strong className='text-amber-500'> asientos ergonómicos</strong>, buena ventilación y una suspensión que permite manejar diferentes tipos de caminos. 

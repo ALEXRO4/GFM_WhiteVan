@@ -13,9 +13,7 @@ const Diapositiva5 = () => {
                   <div className='fotoD5 mx-10 '>
                     <img src="/Images/especs/coche2.jpeg" alt="foto2" className='rounded-lg' />
                   </div>
-                  <div className='fotoT5 mx-10'>
-                    <img src="/Images/especs/coche3.jpeg" alt="foto3" className='rounded-lg' />
-                  </div>
+                  
                 </div>
         </div>
         <div className='cajaDer5'>
