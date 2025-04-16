@@ -19,7 +19,7 @@ const Contact = () => {
                     <dt className="text-base font-semibold leading-7 text-gray-900">
                       {/* Form */}
                       <section>
-                        <form className="max-w-md mx-auto" action="https://formspree.io/f/mzzewegd" method="post">
+                        <form className="max-w-md mx-auto" action="https://formspree.io/f/mrbpvkqe" method="post">
                           <div className="grid md:grid-cols-2 md:gap-6">
                             <div className="relative z-0 w-full mb-5 group">
                               <input type="text" name="Nombre(s):" id="floating_first_name"
@@ -102,7 +102,7 @@ const Contact = () => {
                         <div className="absolute h-10 w-10 items-center justify-center rounded-lg">
                           <img src="/Images/Icons/mail.png" alt="mail-icon" />
                         </div>
-                        <p className="contactos">cotizaciones@gfmwhitevan.com</p>
+                        <p className="contactos">cotizaciones@gfmwhitevan.com.mx</p>
                       </div>
                       
                       

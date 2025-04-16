@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex-1 p-4 text-center">
           <h2 className="text-lg font-bold mb-2 text-white">Contactos</h2>
           <div className=' text-white'>
-          cotizaciones@gfmwhitevan.com
+          cotizaciones@gfmwhitevan.com.mx
           </div>
           <div className='text-white mt-2'>
           Cuarta cerrada de rio Churubusco # 38 colonia agricultura Pantitlan alcaldía Iztacalco C.P. 08100
