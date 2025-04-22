@@ -10,7 +10,7 @@ const GMF = () => {
         Nos encontramos en la industria del transporte como una empresa consolidada, compuesta por un equipo de profesionales con una formación sólida y una alta especialización en este sector. Contamos con expertos que han adquirido conocimientos y habilidades en diversas áreas, lo que nos permite brindar un servicio excepcional. Nuestro principal objetivo es ofrecer <strong className='text-amber-500'>soluciones eficaces</strong> y de <strong className='text-amber-500'>alta calidad</strong>, que se caractericen por su <strong className='text-amber-500'>eficiencia</strong> y atención al detalle. Estas soluciones están respaldadas por muchos años de <strong className='text-amber-500'>experiencia</strong> en el mercado y por un firme compromiso con la <strong className='text-amber-500'>satisfacción total</strong> de las necesidades y expectativas de nuestros clientes, siempre priorizando su <strong className='text-amber-500'>bienestar</strong> y <strong className='text-amber-500'>confianza</strong>.</p>
         <div className=" h-[400px] imgNos">
           <img
-            src="./Images/crafter1.jpg"
+            src="./Images/crafter1.webp"
             alt="Nosotros"
             className="w-1/2 max-w-xl md:w-1/3 rounded-lg shadow-lg mx-auto" 
           />
@@ -28,7 +28,7 @@ const GMF = () => {
           </p>
           <div className='imaGfm'>
             <img
-              src="./Images/leaf.png"
+              src="./Images/leaf.webp"
               alt="Nosotros"
               className="m-5"
             />
@@ -42,7 +42,7 @@ const GMF = () => {
           </p>
           <div className='flex justify-center'>
             <img
-              src="./Images/crafter2.jpeg"
+              src="./Images/crafter2.webp"
               alt="Misión"
               className="w-full max-w-4xl md:w-2/3 rounded-lg shadow-lg mx-auto pt-4" 
             />

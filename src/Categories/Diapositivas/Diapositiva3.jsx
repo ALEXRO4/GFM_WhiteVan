@@ -9,11 +9,11 @@ const Diapositiva3 = () => {
       <div className='cajaE3'>
         <div className='cajaIz3'>
           <div className='fotoU3'>
-            <img src="/Images/especs/suburban2.jpeg" alt="foto1" className='rounded-lg' />
+            <img src="/Images/especs/suburban2.webp" alt="foto1" className='rounded-lg' />
           </div>
           <div className='Imgs3'>
             <div className='fotoD3 mx-10 '>
-              <img src="/Images/especs/suburban3.jpeg" alt="foto2" className='rounded-lg' />
+              <img src="/Images/especs/suburban3.webp" alt="foto2" className='rounded-lg' />
             </div>
             
           </div>

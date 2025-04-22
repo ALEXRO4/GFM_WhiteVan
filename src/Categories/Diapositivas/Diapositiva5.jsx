@@ -7,11 +7,11 @@ const Diapositiva5 = () => {
       <div className='cajaE5'>
         <div className='cajaIz5'>
           <div className='fotoU5'>
-            <img src="/Images/especs/cocheLat.jpeg" alt="foto1" className='rounded-lg' />
+            <img src="/Images/especs/cocheLat.webp" alt="foto1" className='rounded-lg' />
           </div>
           <div className='Imgs5'>
                   <div className='fotoD5 mx-10 '>
-                    <img src="/Images/especs/coche2.jpeg" alt="foto2" className='rounded-lg' />
+                    <img src="/Images/especs/coche2.webp" alt="foto2" className='rounded-lg' />
                   </div>
                   
                 </div>

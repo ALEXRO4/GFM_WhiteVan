@@ -11,14 +11,14 @@ const Diapositiva1 = () => {
       <div className='cajaE1'>
         <div className='cajaIz1'>
           <div className='fotoU1'>
-            <img src="/Images/especs/crafter2.jpeg" alt="foto1" className='rounded-lg' />
+            <img src="/Images/especs/crafter2.webp" alt="foto1" className='rounded-lg' />
           </div>
           <div className='Imgs1'>
             <div className='fotoD1 mx-10'>
-              <img src="/Images/especs/dentro.jpeg" alt="foto2" className='rounded-lg' />
+              <img src="/Images/especs/dentro.webp" alt="foto2" className='rounded-lg' />
             </div>
             <div className='fotoT1 mx-10'>
-              <img src="/Images/especs/splinter.jpeg" alt="foto3" className='rounded-lg  ' />
+              <img src="/Images/especs/splinter.webp" alt="foto3" className='rounded-lg  ' />
             </div>
           </div>
         </div>

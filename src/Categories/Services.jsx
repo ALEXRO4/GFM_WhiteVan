@@ -62,31 +62,31 @@ const Services = () => {
           <Slider {...settings} className='carouselStyle'> 
             <Link to="/Diapositivas/Diapositiva1">
               <div> 
-                <img src="/Images/carrusel/splinter.png" alt="Vehículo 1" className='slidesF'/> 
+                <img src="/Images/carrusel/splinter.webp" alt="Vehículo 1" className='slidesF'/> 
                 <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Sprinter / Crafter (20P)</p>
               </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva2">
             <div>
-              <img src="/Images/carrusel/toyotahiace.png" alt="Vehículo 2" className='slidesF'/>
+              <img src="/Images/carrusel/toyotahiace.webp" alt="Vehículo 2" className='slidesF'/>
               <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Toyota Hiace (12P)</p>
             </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva3">
             <div>
-              <img src="/Images/carrusel/suburban.png" alt="Vehículo 3" className='slidesF'/>
+              <img src="/Images/carrusel/suburban.webp" alt="Vehículo 3" className='slidesF'/>
               <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Suburban (9P)</p>
             </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva4">
             <div>
-              <img src="/Images/carrusel/toyota.png" alt="Vehículo 4" className='slidesF'/>
+              <img src="/Images/carrusel/toyota.webp" alt="Vehículo 4" className='slidesF'/>
               <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Toyota Hiace (15P)</p>
             </div>
             </Link>
             <Link to="/Diapositivas/Diapositiva5">
             <div>
-              <img src="/Images/carrusel/vento.png" alt="Vehículo 5" className='slidesF'/>
+              <img src="/Images/carrusel/vento.webp" alt="Vehículo 5" className='slidesF'/>
               <p className='text-center text-gray-900 font-semibold border-b-2 border-b-amber-500 mx-32'>Coches (4P)</p>
             </div>
             </Link>

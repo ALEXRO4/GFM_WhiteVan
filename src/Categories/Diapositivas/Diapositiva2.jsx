@@ -9,13 +9,13 @@ const Diapositiva2 = () => {
         <div className='cajaIz2'>
           <div className='Imgs2'>
             <div className='fotoU2'>
-              <img src="/Images/especs/hiaceLat.jpeg" alt="foto1" className='rounded-lg' />
+              <img src="/Images/especs/hiaceLat.webp" alt="foto1" className='rounded-lg' />
             </div>
             <div className='fotoD2'>
-              <img src="/Images/especs/hiace2.jpeg" alt="foto2" className='rounded-lg' />
+              <img src="/Images/especs/hiace2.webp" alt="foto2" className='rounded-lg' />
             </div>
             <div className='fotoT2'>
-              <img src="/Images/especs/hiace14.jpeg" alt="foto3" className='rounded-lg' />
+              <img src="/Images/especs/hiace14.webp" alt="foto3" className='rounded-lg' />
             </div>
           </div>
         </div>

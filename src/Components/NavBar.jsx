@@ -29,7 +29,7 @@ const NavBar = () => {
       <div className='h-10vh flex justify-between z-50 text-white lg:py-5 px-20 flex-1 bg-black'>
         <div className='flex items-center flex-1'>
           {/* Logo con clase 'logo' para que se oculte en pantallas pequeñas */}
-          <span><img src="/Images/logo.png" alt="logo" className='logo h-20 mx-auto' /></span>
+          <span><img src="/Images/logo.webp" alt="logo" className='logo h-20 mx-auto' /></span>
         </div>
 
         {/* Texto que se muestra solo en pantallas pequeñas con clase 'navbar-text' */}
