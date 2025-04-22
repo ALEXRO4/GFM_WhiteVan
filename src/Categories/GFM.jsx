@@ -23,7 +23,7 @@ const GMF = () => {
             Descubre como ayudamos al medio ambiente!
           </div>
           <p className='text-xl font-serif'>
-          Nuestros vehiculos utilizan nuestro sistema de reducción catalitica selectiva para contribuir a la mejora de la calidad del aire y al cumplimiento de las normativas medioambientales, ya que convierte los NOx en nitrógeno y 
+          Nuestros vehículos utilizan nuestro sistema de reducción catalítica selectiva para contribuir a la mejora de la calidad del aire y al cumplimiento de las normativas medioambientales, ya que convierte los NOx en nitrógeno y 
           vapor de agua inofensivos. Este compromiso con la sostenibilidad beneficia al medio ambiente al disminuir la contaminación del aire y contribuir a un futuro más limpio.
           </p>
           <div className='imaGfm'>

@@ -19,9 +19,21 @@ const Footer = () => {
           <div className=' text-white'>
           cotizaciones@gfmwhitevan.com.mx
           </div>
-          <div className='text-white mt-2'>
-          Cuarta cerrada de rio Churubusco # 38 colonia agricultura Pantitlan alcaldía Iztacalco C.P. 08100
+          
+          <div className=' text-white font-semibold'>
+          Telefonos: 
           </div>
+          <div className=' text-white'>
+          55 9372 7356 /
+          55 4133 4597 /
+          55 8062 5857 
+          </div>
+          
+          <div className='text-white mt-2'>
+          Cuarta cerrada de rio Churubusco # 38 Colonia Agrícola Pantitlán Alcaldía Iztacalco C.P. 08100
+          </div>
+          
+          
         </div>
 
         {/* Sección "GMF" */}
@@ -35,7 +47,7 @@ const Footer = () => {
       {/* Texto inferior */}
       <div>
         <p className="text-gray-300 border-t p-4 mt-4 text-center">
-        Para más información o cotizaciones comunicate con nosotros
+        Para más información o cotizaciones comunícate con nosotros
         </p>
       </div>
     </footer>

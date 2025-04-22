@@ -23,7 +23,7 @@ const Diapositiva3 = () => {
           <h3 className='font-semibold text-2xl mt-10'>Descripción</h3>
           <div className='arriba3 text-justify text-lg'>
           Suburban es una <strong className='text-amber-500'>SUV grande</strong> ideal para <strong className='text-amber-500'>familias numerosas </strong> 
-          o para quienes un <strong className='text-amber-500'>vehículo de lujo</strong>, <strong className='text-amber-500'>espacio </strong> y 
+          o para quienes requieren un <strong className='text-amber-500'>vehículo de lujo</strong>, <strong className='text-amber-500'>espacio </strong> y 
           <strong className='text-amber-500'> capacidad de remolque</strong>. Su combinación de <strong className='text-amber-500'>potente motor</strong>, 
           <strong className='text-amber-500'> amplio interior</strong>, <strong className='text-amber-500'>opciones de lujo</strong> la convierten en una excelente opción para 
           <strong className='text-amber-500'> viajes largos</strong> como <strong className='text-amber-500'>transportes comerciales</strong> y 

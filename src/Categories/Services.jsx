@@ -96,7 +96,7 @@ const Services = () => {
           <h2 className='text-2xl font-semibold flex-col pb-2'>Nuestra experiencia</h2>
           <p className='lg:mr-10 sm:mx-4 md:mx-2 text-xl'>
             <strong className='text-amber-500'>GFM</strong> ha sido el aliado de confianza en eventos emblemáticos como 
-            <strong className='text-amber-500'> Vive Latino, Corona Capital, Flow Fest, Bahidorá, Belife y Teketóny</strong>, siendo puntuales para cada ocasión.
+            <strong className='text-amber-500'> Vive Latino, Corona Capital, Flow Fest, Bahidorá, Belife y Teketón</strong>, siendo puntuales para cada ocasión.
           </p>
         </div>
       </div>

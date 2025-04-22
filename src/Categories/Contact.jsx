@@ -98,6 +98,12 @@ const Contact = () => {
                         </div>
                         <p className="contactos">+52 1 55 4133 4597</p>
                       </div>
+                      <div className="separacion col-start-1 col-end-5">
+                        <div className="absolute flex h-10 w-10 items-center justify-center rounded-lg">
+                          <img src="/Images/Icons/llamar.png" alt="cellphone-icon" />
+                        </div>
+                        <p className="contactos">+52 1 55 9372 7356</p>
+                      </div>
                       <div className="col-start-1 col-end-5">
                         <div className="absolute h-10 w-10 items-center justify-center rounded-lg">
                           <img src="/Images/Icons/mail.png" alt="mail-icon" />
