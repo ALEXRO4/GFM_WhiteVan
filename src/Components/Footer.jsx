@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
           
           <div className='text-white mt-2'>
-          Cuarta cerrada de rio Churubusco # 38 Colonia Agrícola Pantitlán Alcaldía Iztacalco C.P. 08100
+          Cuarta cerrada de Río Churubusco # 38 Colonia Agrícola Pantitlán Alcaldía Iztacalco C.P. 08100
           </div>
           
           
